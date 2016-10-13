@@ -226,7 +226,6 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
-
 @media (min-width: 767px) {
   .content-section {
     padding-top: 250px;
@@ -293,19 +292,15 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
-.skill {
-  display: flex;
-  justify-content: space-around;
+.col-md-2, .fa-envira {
   color: #1d9b6c;
 }
-.skill img {
+.col-md-2 a img {
   height: 200px;
   width: 200px;
-  background-size: contain;
+  background-size: cover;
   border: 1px solid black;
-}
-.fa-envira {
-  color: #1d9b6c;
+  border-radius: 8px;
 }
 .shadow {
   background: rgba(0, 0, 0, 0.5);
@@ -321,6 +316,10 @@ body {
 .shadow-links {
   background: rgba(0, 0, 0, 0.5);
 }
+h1,
+h2,
+.light,
+.intro-text,
 .nav li a {
   text-shadow: 2px 2px black;
 }
